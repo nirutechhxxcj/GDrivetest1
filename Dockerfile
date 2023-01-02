@@ -1,4 +1,4 @@
-FROM ubuntu:18.04
+FROM ubuntu:22.04.1
 
 WORKDIR /bot
 RUN chmod 777 /bot
