@@ -11,8 +11,7 @@ class Config:
     BOT_TOKEN = '5836909294:AAFrPW2WTIC59UqV5tHAix4tzqaFOQC0wa8' # Get it from https://t.me/BotFather
     APP_ID = '952608' # Get it from my.telegram.org/apps
     API_HASH = '8d8d0ad8e3d4bcd54420190f57da78ad' # Get it from my.telegram.org/apps
-    DATABASE_URL = 'postgres://mdvgqgverqgesc:263a6b5b49f8539c4b1bb106ff7b300e5b5ebb3b46c3314fc57e8da9865c6457@ec2-34-192-122-0.compute-1.amazonaws.com:5432/d6c18273hu4a0r'
-
+    DATABASE_URL = 'mongodb+srv://Nirutech:Nirutech123@cluster0.1efjkat.mongodb.net/?retryWrites=true&w=majority'
 class Messages:
 
     START_MSG = "**Hi there {}.**\n__I'm Google Drive Uploader Bot.You can use me to upload any file / video to Google Drive from direct link or Telegram Files.__\n__You can know more from /help.__"
